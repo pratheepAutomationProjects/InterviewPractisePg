@@ -33,3 +33,4 @@ class TestInputPage:
             context.close()
             browser.close()
             abc.close()
+            abc
