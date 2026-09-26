@@ -16,7 +16,6 @@ class TestInputPage:
             page.get_by_role("textbox", name="Append a text and press keyboard tab")
             page.get_by_placeholder("Enter")
             # CSS & ID Locators
-            append_input = page.get_by_label("Append a text and press keyboard tab")
             current_text = append_input.input_value()
         
         # 2. Fill the field with the old text + the new text
@@ -32,6 +31,4 @@ class TestInputPage:
             # Close the context and browser
             context.close()
             browser.close()
-            abc.close()
             abc
-            def
