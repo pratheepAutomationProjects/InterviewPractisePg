@@ -31,3 +31,5 @@ class TestInputPage:
             # Close the context and browser
             context.close()
             browser.close()
+            abc
+            deg
