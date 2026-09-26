@@ -34,3 +34,4 @@ class TestInputPage:
             browser.close()
             abc.close()
             abc
+            def
